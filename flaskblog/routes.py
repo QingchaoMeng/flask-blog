@@ -1,36 +1,24 @@
-from flask import Flask, render_template, url_for, flash, redirect
-from flask_sqlalchemy import SQLAlchemy
-from forms import RegistrationForm, LoginForm
+from flask import render_template, url_for, flash, redirect
+from flaskblog import app
+from flaskblog.forms import RegistrationForm, LoginForm
+from flaskblog.models import User, Post
 
-app = Flask(__name__)
-app.config['SECRET_KEY'] = 'b6309ec031df5aadc4e2aade82f04291'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
-db = SQLAlchemy(app)
-
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(20), unique=True, nullable=False)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    image_file = db.Column(db.String(20), nullable=False, default='default.jpg')
-    password = db.Column(db.String(60), nullable=False)
-
-    def __repr__(self):
-        return
 
 posts = [
     {
         'author': 'noeveah',
         'title': 'blog1',
-        'content':'first blog',
+        'content': 'first blog',
         'date_posted': 'April 20, 2020'
     },
     {
         'author': 'joyce',
         'title': 'blog2',
-        'content':'second blog',
+        'content': 'second blog',
         'date_posted': 'April 21, 2020'
     }
 ]
+
 
 @app.route("/")
 @app.route("/home")
@@ -62,8 +50,3 @@ def login():
         else:
             flash('Login Unsuccessful. Please check username and password', 'danger')
     return render_template('login.html', title='Login', form=form)
-
-
-
-if  __name__ == '__main__':
-    app.run(debug=True)
