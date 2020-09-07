@@ -16,23 +16,19 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Python Flask Web Server&#10;">
-      <change afterPath="$PROJECT_DIR$/flaskblog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskblog/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskblog/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskblog/site.db" afterDir="false" />
+    <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Python Flask Web Server">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +80,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="directory&#10;module" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Solr" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -222,6 +219,28 @@
       <option name="presentableId" value="Default" />
       <updated>1598652156741</updated>
     </task>
+    <task id="LOCAL-00001" summary="Python Flask Web Server">
+      <created>1598724798532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598724798532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Python Flask Web Server">
+      <created>1598724878829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598724878829</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Python Flask Web Server">
+      <created>1598726013782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598726013782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,17 +263,28 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Python Flask Web Server&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python Flask Web Server&#10;" />
+    <MESSAGE value="Python Flask Web Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python Flask Web Server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1128" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598723084358">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1128" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1598723084358" />
+    <state x="891" y="293" key="FileChooserDialogImpl" timestamp="1598992787678">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="891" y="293" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598992787678" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1598721338128">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598721338128" />
+    <state x="1140" y="428" key="git4idea.ui.GitStashDialog" timestamp="1598725932401">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1140" y="428" key="git4idea.ui.GitStashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598725932401" />
   </component>
 </project>
