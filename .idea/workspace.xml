@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Python Flask Web Server">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Python Flask Web Server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598726013782</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Python Flask Web Server">
+      <created>1599499598757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599499598758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +285,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1598721338128" />
+    <state x="703" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599499629363">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="703" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599499629363" />
     <state x="1140" y="428" key="git4idea.ui.GitStashDialog" timestamp="1598725932401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
