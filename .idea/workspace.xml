@@ -26,15 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Python Flask Web Server">
-      <change afterPath="$PROJECT_DIR$/flaskblog/templates/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/create_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/user_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FlaskBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlaskBlog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/crazyPanda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/static/profile_pics/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/site.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +94,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory&#10;module" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -101,6 +105,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flaskblog/static/profile_pics" />
+      <recent name="$PROJECT_DIR$/flaskblog/static" />
       <recent name="C:\Users\Qingchao\PycharmProjects\FlaskBlog\flaskblog" />
     </key>
   </component>
@@ -250,10 +256,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1599798008768" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1600124457226">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="346" y="164" key="SettingsEditor" timestamp="1600271953417">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600124457226" />
+    <state x="346" y="164" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1600271953417" />
     <state x="703" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599499629363">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -266,9 +273,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1140" y="428" key="git4idea.ui.GitStashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598725932401" />
-    <state x="953" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1600128222156">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-967" y="297" width="894" height="684" key="search.everywhere.popup" timestamp="1600318155007">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-967" y="297" width="894" height="684" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600318155007" />
     <state x="953" y="272" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600128222156" />
+    <state x="715" y="250" width="670" height="567" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600281531514" />
   </component>
 </project>
