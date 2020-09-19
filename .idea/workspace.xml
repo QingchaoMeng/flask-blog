@@ -25,20 +25,37 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Python Flask Web Server">
-      <change afterPath="$PROJECT_DIR$/flaskblog/templates/create_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskblog/templates/post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskblog/templates/user_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FlaskBlog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FlaskBlog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8127232e-5de8-4bff-af64-7a4339e9560b" name="Default" comment="Flask Blog Done">
+      <change afterPath="$PROJECT_DIR$/flaskblog/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/error/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/error/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/main/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/posts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/posts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/posts/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/errors/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/errors/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/reset_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/templates/reset_token.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/users/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskblog/users/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/crazyPanda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/static/profile_pics/default.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/routes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/site.db" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/site.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskblog/templates/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/account.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskblog/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskblog/templates/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskblog/templates/user_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +77,7 @@
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="Qingchao Meng" />
+        <option value="Crazy Panda" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,6 +123,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flaskblog" />
       <recent name="$PROJECT_DIR$/flaskblog/static/profile_pics" />
       <recent name="$PROJECT_DIR$/flaskblog/static" />
       <recent name="C:\Users\Qingchao\PycharmProjects\FlaskBlog\flaskblog" />
@@ -197,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599499598758</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Flask Blog up to pagination">
+      <created>1600319163335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600319163335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,21 +247,37 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Python Flask Web Server&#10;" />
     <MESSAGE value="Python Flask Web Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python Flask Web Server" />
+    <MESSAGE value="Flask Blog up to pagination" />
+    <MESSAGE value="Flask Blog Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flask Blog Done" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="877" y="362" key="#Notifications" timestamp="1600123866223">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1043" y="387" key="#Notifications" timestamp="1600319137427">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1043" y="387" key="#Notifications/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600319137427" />
     <state x="877" y="362" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1600123866223" />
-    <state x="1128" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598723084358">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-792" y="356" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600319268004">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-792" y="356" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600319268004" />
     <state x="1128" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1598723084358" />
+    <state x="-832" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600468493872">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-832" y="297" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600468493872" />
+    <state x="515" y="-1290" key="CommitChangelistDialog2" timestamp="1600492789790">
+      <screen x="-614" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-1073" y="118" key="CommitChangelistDialog2/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600319161902" />
+    <state x="515" y="-1290" key="CommitChangelistDialog2/-614.-1417.2560.1417/0.23.1440.877@-614.-1417.2560.1417" timestamp="1600492789790" />
     <state x="891" y="293" key="FileChooserDialogImpl" timestamp="1600123897486">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -261,22 +303,28 @@
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1600124457226" />
     <state x="346" y="164" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1600271953417" />
-    <state x="703" y="271" key="Vcs.Push.Dialog.v2" timestamp="1599499629363">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="-1217" y="296" key="Vcs.Push.Dialog.v2" timestamp="1600319214672">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1217" y="296" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600319214672" />
     <state x="703" y="271" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1599499629363" />
     <state x="1083" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600124811187">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1083" y="466" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1600124811187" />
+    <state x="-869" y="176" width="598" height="735" key="find.popup" timestamp="1600469033937">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-869" y="176" width="598" height="735" key="find.popup/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600469033937" />
     <state x="1140" y="428" key="git4idea.ui.GitStashDialog" timestamp="1598725932401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1140" y="428" key="git4idea.ui.GitStashDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1598725932401" />
-    <state x="-967" y="297" width="894" height="684" key="search.everywhere.popup" timestamp="1600318155007">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="647" y="-1003" width="1192" height="917" key="search.everywhere.popup" timestamp="1600490006460">
+      <screen x="-614" y="-1417" width="2560" height="1417" />
     </state>
     <state x="-967" y="297" width="894" height="684" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1600318155007" />
+    <state x="647" y="-1003" width="1192" height="917" key="search.everywhere.popup/-614.-1417.2560.1417/0.23.1440.877@-614.-1417.2560.1417" timestamp="1600490006460" />
     <state x="953" y="272" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1600128222156" />
     <state x="715" y="250" width="670" height="567" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1600281531514" />
   </component>
